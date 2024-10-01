@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+     <meta charset="windows1251">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фэнтези</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Фэнтези</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="genres.html">Жанры</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Книги в жанре Фэнтези</h2>
+        <div class="book-grid">
+            <div class="book-card">
+                <img src="images/harry-potter.jpg" alt="Гарри Поттер">
+                <h3>Гарри Поттер</h3>
+                <p>Дж. К. Роулинг</p>
+            </div>
+            <div class="book-card">
+                <img src="images/lord-of-the-rings.jpg" alt="Властелин колец">
+                <h3>Властелин колец</h3>
+                <p>Дж. Р. Р. Толкин</p>
+            </div>
+            <div class="book-card">
+                <img src="images/eragon.jpg" alt="Эрагон">
+                <h3>Эрагон</h3>
+                <p>Кристофер Паолини</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Подростковый книжный гид</p>
+    </footer>
+</body>
+</html>
+<section id="filmography">
+   <section id="filmography">
+    <h2>Фильмография</h2>
+    <div class="film-gallery">
+        <a href="https://rutube.ru/video/6982ea93e6c9e05bd9b5d4da0c000f23/" target="_blank" class="film-card" data-title="Гарри Поттер и философский камень" data-info="Год: 2001, Режиссер: Крис Коламбус">
+            <img src="images/harry-potter-1.jpg" alt="Гарри Поттер">
+        </a>
+        <a href="https://rutube.ru/video/524c5d5f642350f1158c97231e9f9fa5/" target="_blank" class="film-card" data-title="Гарри Поттер и Тайная комната" data-info="Год: 2002, Режиссер: Крис Коламбус">
+            <img src="images/harry-potter-2.jpg" alt="Гарри Поттер">
+        </a>
+        <a href="https://rutube.ru/video/a60bbd8953481b94e6854834f30d3c4e/" target="_blank" class="film-card" data-title="Властелин колец: Братство Кольца" data-info="Год: 2001, Режиссер: Питер Джексон">
+            <img src="images/lord-of-the-rings-1.jpg" alt="Властелин колец">
+        </a>
+        <a href="https://rutube.ru/video/e7566f035488b178735d4c65b8a89a1c/" target="_blank" class="film-card" data-title="Властелин колец: Две крепости" data-info="Год: 2002, Режиссер: Питер Джексон">
+            <img src="images/lord-of-the-rings-2.jpg" alt="Властелин колец">
+        </a>
+        <a href="https://rutube.ru/video/90cd8e9c4e80e3a04d63ba7dda13a64f/" target="_blank" class="film-card" data-title="Властелин колец: Возвращение короля" data-info="Год: 2003, Режиссер: Питер Джексон">
+            <img src="images/lord-of-the-rings-3.jpg" alt="Властелин колец">
+        </a>
+        <a href="https://rutube.ru/video/00c1daa68a3fdd9db370e36c0c83676f/" target="_blank" class="film-card" data-title="Эрагон" data-info="Год: 2006, Режиссер: Стефен Фангмайер">
+            <img src="images/eragon.jpg" alt="Эрагон">
+        </a>
+    </div>
+</section>
+
+<!-- Всплывающее окно удалено, так как ссылки ведут на внешние ресурсы -->
+
+
+<!-- Всплывающее окно -->
+<div id="film-popup" class="popup">
+    <div class="popup-content">
+        <span class="close">&times;</span>
+        <h2 id="popup-title"></h2>
+        <p id="popup-info"></p>
+    </div>
+</div>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+     <meta charset="windows1251">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Подростковый книжный гид</title>
+    <link rel="stylesheet" href="styles.css">
+</head><script src="quiz.js"></script>
+<body>
+    <header>
+        <h1>Подростковый книжный гид</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="genres.html">Жанры</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Добро пожаловать!</h2>
+        <p>Выберите любимый жанр и найдите лучшую книгу для себя!</p>
+        <p>Перейдите в раздел <a href="genres.html">Жанры</a>, чтобы узнать больше.</p>
+    </section>
+
+    <!-- Раздел "Онлайн-бронирование" -->
+    <section id="booking">
+        <h2>Онлайн-бронирование</h2>
+        <p>Хотите забронировать книги? Перейдите по ссылке ниже для онлайн-бронирования:</p>
+        <a href="https://sakhodb.ru/booking/" target="_blank" class="booking-button">Забронировать книги онлайн</a>
+    </section>
+
+    <footer>
+        <p>© 2024 Подростковый книжный гид</p>
+    </footer>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
+    <!-- Раздел "Проверь себя" -->
+    <section id="quiz">
+        <h2>Проверь себя</h2>
+        <p>Ответь на несколько вопросов о любимых книгах и фильмах!</p>
+
+        <!-- Вопросы викторины -->
+        <div class="question" id="question1">
+            <p>1. Кто написал серию книг о Гарри Поттере?</p>
+            <ul>
+                <li><input type="radio" name="q1" value="wrong"> Дж. Р. Р. Толкин</li>
+                <li><input type="radio" name="q1" value="right"> Дж. К. Роулинг</li>
+                <li><input type="radio" name="q1" value="wrong"> Стефен Кинг</li>
+            </ul>
+        </div>
+
+        <div class="question" id="question2">
+            <p>2. Как называется первое произведение в трилогии "Властелин колец"?</p>
+            <ul>
+                <li><input type="radio" name="q2" value="right"> Братство Кольца</li>
+                <li><input type="radio" name="q2" value="wrong"> Две крепости</li>
+                <li><input type="radio" name="q2" value="wrong"> Возвращение короля</li>
+            </ul>
+        </div>
+
+        <div class="question" id="question3">
+            <p>3. В каком году вышел фильм "Эрагон"?</p>
+            <ul>
+                <li><input type="radio" name="q3" value="wrong"> 2004</li>
+                <li><input type="radio" name="q3" value="right"> 2006</li>
+                <li><input type="radio" name="q3" value="wrong"> 2008</li>
+            </ul>
+        </div>
+
+        <!-- Кнопка для проверки ответов -->
+        <button id="submit-quiz">Проверить ответы</button>
+
+        <!-- Результаты -->
+        <div id="quiz-result"></div>
+    </section>
+
+    <footer>
+        <p>© 2024 Подростковый книжный гид</p>
+    </footer>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Подростковый книжный гид</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Подростковый книжный гид</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="genres.html">Жанры</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Добро пожаловать!</h2>
+        <p>Выберите любимый жанр и найдите лучшую книгу для себя!</p>
+        <p>Перейдите в раздел <a href="genres.html">Жанры</a>, чтобы узнать больше.</p>
+    </section>
+
+    <!-- Раздел "Проверь себя" -->
+    <section id="quiz">
+        <h2>Проверь себя</h2>
+        <!-- Контент викторины здесь -->
+    </section>
+
+    <!-- Раздел "Онлайн-бронирование" -->
+    <section id="booking">
+        <h2>Онлайн-бронирование</h2>
+        <p>Хотите забронировать книги? Перейдите по ссылке ниже для онлайн-бронирования:</p>
+        <a href="https://sakhodb.ru/booking/" target="_blank" class="booking-button">Забронировать книги онлайн</a>
+    </section>
+
+    <!-- Раздел "Поиграем" -->
+    <section id="snake-game">
+        <h2>Поиграем в "Змейку"</h2>
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <p>Нажмите клавиши со стрелками, чтобы начать играть.</p>
+    </section>
+
+    <footer>
+        <p>© 2024 Подростковый книжный гид</p>
+    </footer>
+
+    <script src="snake.js"></script>
+</body>
+</html>
